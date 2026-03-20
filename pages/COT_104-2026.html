@@ -19,9 +19,10 @@ a{text-decoration:none;color:inherit;}
 .cli-fecha{font-size:11px;color:#444;line-height:1.3;margin-bottom:3px;}
 .cli-cotnum{font-size:12px;font-weight:700;color:#000;display:inline-block;border-bottom:2px solid #aaa;padding-bottom:2px;margin-top:4px;}
 .svc-wrap{padding:10px 28px 0;}
-.svc-table{width:100%;border-collapse:collapse;border:2px solid #4EB5EF;margin-bottom:14px;font-family:Montserrat,Arial,sans-serif;}
-.svc-title{background:#4EB5EF;color:#fff;text-align:center;padding:9px 12px;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:1.5px;border:1px solid #3aa0d8;}
-.svc-intro{background:#fff;color:#555;font-size:10px;line-height:1.5;padding:8px 12px;border-bottom:1px solid #ccc;font-style:italic;}
+.svc-table-wrap{border:2px solid #4EB5EF;border-radius:10px;overflow:hidden;margin-bottom:14px;}
+.svc-table{width:100%;border-collapse:collapse;border-spacing:0;font-family:Montserrat,Arial,sans-serif;}
+.svc-title{background:#4EB5EF;color:#fff;text-align:center;padding:10px 12px 8px;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:1.5px;border:none;}
+.svc-title-sub{display:block;font-size:9px;font-weight:400;font-style:italic;text-transform:none;letter-spacing:0;opacity:0.92;margin-top:4px;}
 .cons-wrap{padding:0 28px 6px;}
 .cons-title{font-weight:700;font-size:11px;color:#4EB5EF;text-decoration:underline;margin-bottom:8px;font-family:Montserrat,Arial,sans-serif;}
 .cierre{padding:0 28px 16px;}
@@ -56,7 +57,7 @@ a{text-decoration:none;color:inherit;}
   <!-- HEADER: logo izq + 6 fotos reales -->
   <div class="hdr">
     <div class="hdr-logo">
-      <img src="https://res.cloudinary.com/dmuj4p26r/image/upload/v1774040025/Blue_Color_pu4nwv.png" style="max-height:82px;max-width:130px;width:auto;height:auto;display:block;" alt="Blue Comunicadores">
+      <img src="https://res.cloudinary.com/dmuj4p26r/image/upload/v1774041183/logo1_av4kna.png" style="max-height:82px;max-width:130px;width:auto;height:auto;display:block;" alt="Blue Comunicadores">
     </div>
     <div class="hdr-photos"><div style="flex:1;min-width:0;overflow:hidden;">
        <img src="https://res.cloudinary.com/dmuj4p26r/image/upload/v1774041183/ips_lv02je.png" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy">
@@ -82,16 +83,15 @@ a{text-decoration:none;color:inherit;}
 
   <!-- TABLA SERVICIOS -->
   <div class="svc-wrap">
+    <div class="svc-table-wrap">
     <table class="svc-table">
       <thead>
-        <tr><th colspan="7" class="svc-title">PRESUPUESTO DE SERVICIO</th></tr>
-        <tr><td colspan="7" class="svc-intro">La presente comunicación busca hacerle llegar nuestros costos de los soluciones solicitadas a continuación:</td></tr>
+        <tr><th colspan="6" class="svc-title">PRESUPUESTO DE SERVICIO<span class="svc-title-sub">La presente comunicación busca hacerle llegar nuestros costos de las soluciones solicitadas a continuación:</span></th></tr>
         <tr>
     <th style="background:#4EB5EF;color:#fff;font-weight:700;font-size:10px;text-transform:uppercase;letter-spacing:0.8px;padding:7px 10px;border:1px solid #3aa0d8;vertical-align:middle;text-align:center;width:28px;">#</th>
     <th style="background:#4EB5EF;color:#fff;font-weight:700;font-size:10px;text-transform:uppercase;letter-spacing:0.8px;padding:7px 10px;border:1px solid #3aa0d8;vertical-align:middle;">Código</th>
     <th style="background:#4EB5EF;color:#fff;font-weight:700;font-size:10px;text-transform:uppercase;letter-spacing:0.8px;padding:7px 10px;border:1px solid #3aa0d8;vertical-align:middle;">Servicio</th>
     <th style="background:#4EB5EF;color:#fff;font-weight:700;font-size:10px;text-transform:uppercase;letter-spacing:0.8px;padding:7px 10px;border:1px solid #3aa0d8;vertical-align:middle;">Descripción</th>
-    <th style="background:#4EB5EF;color:#fff;font-weight:700;font-size:10px;text-transform:uppercase;letter-spacing:0.8px;padding:7px 10px;border:1px solid #3aa0d8;vertical-align:middle;text-align:center;width:50px;">Cant.</th>
     <th style="background:#4EB5EF;color:#fff;font-weight:700;font-size:10px;text-transform:uppercase;letter-spacing:0.8px;padding:7px 10px;border:1px solid #3aa0d8;vertical-align:middle;text-align:right;white-space:nowrap;">P. Unit.</th>
     <th style="background:#4EB5EF;color:#fff;font-weight:700;font-size:10px;text-transform:uppercase;letter-spacing:0.8px;padding:7px 10px;border:1px solid #3aa0d8;vertical-align:middle;text-align:right;white-space:nowrap;">Total</th>
   </tr>
@@ -106,16 +106,16 @@ a{text-decoration:none;color:inherit;}
 Entregable:
 - Manual de identidad visual en PDF.
 - Archivos editables (AI, PDF, PNG).</td>
-      <td style="background:#ffffff;padding:7px 10px;border:1px solid #4EB5EF;font-size:11px;color:#000;text-align:center;vertical-align:top;">1</td>
       <td style="background:#ffffff;padding:7px 10px;border:1px solid #4EB5EF;font-size:11px;color:#000;text-align:right;vertical-align:top;white-space:nowrap;">S/2,800.00</td>
       <td style="background:#ffffff;padding:7px 10px;border:1px solid #4EB5EF;font-weight:700;font-size:12px;color:#000;text-align:right;vertical-align:top;white-space:nowrap;">S/2,800.00</td>
     </tr>
         <tr>
-          <td colspan="6" style="background:#4EB5EF;padding:9px 12px;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#fff;text-align:right;border:1px solid #3aa0d8;">TOTAL</td>
+          <td colspan="5" style="background:#4EB5EF;padding:9px 12px;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#fff;text-align:right;border:1px solid #3aa0d8;">TOTAL</td>
           <td style="background:#4EB5EF;padding:9px 12px;font-weight:800;font-size:14px;color:#fff;text-align:right;border:1px solid #3aa0d8;white-space:nowrap;">S/2,800.00</td>
         </tr>
       </tbody>
     </table>
+    </div>
   </div>
 
   <!-- CONSIDERACIONES -->
